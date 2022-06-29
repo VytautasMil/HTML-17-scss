@@ -1,0 +1,57 @@
+@import 'reset.css';
+@import 'vars.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+h1 {
+  color: var(--main-color);
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  padding: 0.8em 1.6em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.btn--main {
+  background-color: var(--main-color);
+}
+.btn.btn--secondary {
+  background-color: #e7e7e7;
+  color: #333;
+}
+.btn.btn--success {
+  background-color: #4caf50;
+}
+.btn.btn--danger {
+  background-color: #f44336;
+}
+
+/* Card */
+.card {
+  display: inline-block;
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--main-bg-color);
+}
+.card.card--dark {
+  color: var(--main-bg-color);
+  background-color: #333;
+}
+
+.card .card__title {
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: normal;
+}
+.card .card__text {
+  color: var(--main-text-color);
+  line-height: 1.5;
+}

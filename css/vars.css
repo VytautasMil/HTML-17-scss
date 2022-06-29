@@ -1,0 +1,7 @@
+/* Kintamieji */
+:root {
+    --main-color: #e26a24;
+    --main-text-color: #777;
+    --mc: var(--main-color);
+    --main-bg-color: snow;
+  }

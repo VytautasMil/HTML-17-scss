@@ -33,6 +33,13 @@ p {
   padding: 0 1rem;
 }
 
+:root {
+  --main-color: #e26a24;
+  --main-text-color: #777;
+  --mc: var(--main-color);
+  --main-bg-color: snow;
+}
+
 .btn {
   border: none;
   color: #fff;
